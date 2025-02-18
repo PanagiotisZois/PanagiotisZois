@@ -17,6 +17,9 @@
 .z-0 {
   z-index: 0;
 }
+.z-3 {
+  z-index: 3;
+}
 .z-5 {
   z-index: 5;
 }
