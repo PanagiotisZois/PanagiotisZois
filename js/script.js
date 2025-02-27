@@ -1,6 +1,10 @@
 const btn = document.getElementById('menu-btn');
 const menu = document.getElementById('menu');
 
+window.addEventListener("beforeunload", function () {
+  window.scrollTo(-2, -2);
+});
+
 // Ακούει για κλικ στο κουμπί για να ανοίξει/κλείσει το μενού
 btn.addEventListener('click', toggleMenu);
 
